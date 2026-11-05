@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class appController {
     @GetMapping("/") // Maps HTTP GET requests to this method
     public String sayHello() {
-        return "Hello, World!";
+        return "Hello, World! Hello";
     }
 
 
